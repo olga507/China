@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;700&display=swap');
+@import 'libs/slick';
+@import 'blocks/promo';
+@import 'blocks/btn';
+@import 'blocks/titles';
+@import 'blocks/adv';
+@import 'blocks/delivery';
+@import 'blocks/agent';
+@import 'blocks/prices';
+@import 'blocks/consultation';
+@import 'blocks/plan';
+@import 'blocks/reviews';
+@import 'blocks/questions';
+@import 'blocks/footer';
+@import 'libs/media';

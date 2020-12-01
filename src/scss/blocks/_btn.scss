@@ -1,0 +1,33 @@
+.btn__mini {
+    width: 160px;
+    height: 45px;
+    font-size: 12px;
+    background-color: #ec644b;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s all;
+    &:hover {
+        background-color: #fff;
+        color:  #ec644b;
+        box-shadow: inset 0px 0px 15px #ec644b;
+    }
+}
+.btn__max {
+    width: 230px;
+    height: 57px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #ec644b;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s all;
+    &:hover {
+        background-color: #fff;
+        color:  #ec644b;
+        box-shadow: inset 0px 0px 15px #ec644b;
+    }
+}

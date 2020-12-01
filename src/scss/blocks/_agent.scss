@@ -1,0 +1,30 @@
+.agent {
+    // height: 342px;
+    min-height: 342px;
+    padding: 58px 0 75px 0;
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__title {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__subtitle {
+        margin-top: 22px;
+        text-align: center;
+        font-size: 19px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+}
+.agent1 {
+    background: url(../img/agent.jpg)  center (center/cover) no-repeat;
+}
+.manager {
+    background: url(../img/manager.jpg) center (center/cover) no-repeat;
+}

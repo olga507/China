@@ -1,0 +1,125 @@
+.promo {
+    background: url(../img/plane.jpg) center (center/cover) no-repeat;
+    width: 100%;
+    height: 680px;
+    padding-top: 23px;
+    &__header {
+        display: flex;
+    }
+    &__menu {
+        display: flex;
+        list-style-type: none;
+        margin: 37px 49px 47px 55px;
+        width: 600px;
+        justify-content: space-between;
+        &_item {
+            font-size: 15px;
+            font-weight: 400;
+            color: #ffffff;
+            border-right: 1px dotted #fff;
+            padding-right: 12px;
+            &:last-child {
+                border: none;
+            }
+            a {
+                &:hover {
+                    color: #ec644b;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    &__qw {
+        margin-top: 25px;
+        width: 165px;
+    }
+    &__call {
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: end;
+    }
+    &__phone {
+        font-size: 19px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-top: 5px;
+    }
+    &__btn {
+        margin-top: 21px;
+        margin-left: 19px;
+    }
+    &__title {
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 9px;
+    }
+    &__subtitle {
+        margin-top: 17px;
+        text-align: center;
+        font-family: Roboto Condensed;
+        font-size: 72px;
+        line-height: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ec644b;
+    }
+    &__descr {
+        margin-top: 9px;
+        text-align: center;
+        font-family: Roboto Condensed;
+        font-size: 42px;
+        line-height: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__split {
+        padding-top: 35px;
+        width: 809px;
+        height: 10px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__line {
+        width: 388px;
+        height: 1px;
+        background-color: #fff;
+    }
+    &__dot {
+        height: 10px;
+        width: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    &__items {
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 262px;
+    }
+    &__img {
+        text-align: center;
+        height: 63px;
+    }
+    &__info {
+        margin-top: 16px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__btnbig {
+        margin-top: 39px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}

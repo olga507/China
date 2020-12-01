@@ -1,0 +1,48 @@
+.reviews {
+    height: 470px;
+    padding-top: 51px;
+    position: relative;
+    &__inner {
+        margin-top: 31px;
+    }
+    &-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        &__title {
+            margin-top: 19px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            color: #3a3a3a;
+        }
+        &__subtitle {
+            text-align: center;
+            line-height: 22px;
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            width: 600px;
+            margin: 0 auto;
+        }
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 35px;
+        background: #fff;
+        cursor: pointer;
+        left: 400px;
+        z-index: 10;
+        transition: 0.4s all;
+        &:hover {
+            box-shadow: inset 0px 0px 15px #ec644b;
+            border-radius: 10px;
+        }
+    }
+    .slick-next {
+        right: 400px;
+        left: auto;
+    }
+}

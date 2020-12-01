@@ -1,0 +1,31 @@
+.adv {
+    min-height: 590px;
+    background-color: #f3f3f3;
+    padding-top: 55px;
+    &__info {
+        margin-top: 32px;
+        display: grid;
+        grid-template: repeat(3, 65px) 130px/ repeat(2, 530px);
+        justify-content: space-between;
+        row-gap: 36px;
+    }
+    &-item {
+        display: grid;
+        grid-template-columns: 64px 450px;
+        justify-content: space-between;
+        align-items: start;
+        justify-items: center;
+        &__title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ec644b;
+        }
+        &__subtitle {
+            margin-top: 6px;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 300;
+            color: #3a3a3a;
+        }
+    }
+}

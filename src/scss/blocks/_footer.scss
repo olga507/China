@@ -1,0 +1,33 @@
+.footer {
+    &__map {
+        height: 500px;
+    }
+    iframe {
+        width: 100%;
+        border: none;
+        height: 100%;
+    }
+    &__wrapper {
+        height: 120px;
+        background-color: #25333c;
+        padding-top: 11px;
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+        width: 710px;
+        padding-left: 40px;
+    }
+    &__qw {
+        margin-top: 0;
+    }
+    &__btn {
+        margin-left: 20px;
+    }
+}
